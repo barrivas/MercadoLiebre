@@ -36,10 +36,11 @@ section {
     display: flex;
     flex-wrap: wrap;
 }
-
+/*
 .text-description {
     display: contents;
 }
+*/
 
 .shadow {
     box-shadow: 0px 0px 10px rgb(100, 100, 100);

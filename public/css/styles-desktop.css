@@ -11,3 +11,7 @@
 .producto-wrapper {
     width: 25%;
 }
+
+.contenido-producto .text-description {
+    opacity: 0;
+}
