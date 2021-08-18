@@ -1,0 +1,13 @@
+.main-header-top,
+.ml-main-nav {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.ml-main-nav li {
+    padding: 12px;
+}
+
+.producto-wrapper {
+    width: 25%;
+}

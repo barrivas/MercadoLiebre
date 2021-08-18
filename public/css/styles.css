@@ -1,0 +1,245 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*
+html {
+    margin: auto;
+}
+*/
+
+body {
+    font-family: "Roboto";
+    font-size: 12px;
+    margin: auto;
+}
+
+/*Header*/
+
+.main-header {
+    background-color: #eac926;
+    padding: 16px;
+}
+
+/*
+.flex-encabezado {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+*/
+.main-header-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-ml {
+    width: 50%;
+}
+
+.searchbar {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.searchbar input,
+.searchbar button {
+    background-color: white;
+    border: none;
+    height: 30px;
+}
+
+/*
+.barra-busqueda {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 8px;
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+*/
+
+.fa-search {
+    padding: 2px;
+    border-radius: 2px;
+}
+
+.ml-main-nav {
+    display: none;
+}
+
+.copy-header {
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.icon-burger {
+    color: white;
+    background-color: #03264c;
+    display: block;
+    padding: 10px;
+    max-width: 50px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 24px;
+    margin: auto;
+}
+
+.form-register {
+    padding: 24px;
+    background-color: #ebebeb;
+    border-radius: 5px;
+}
+
+.main-label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.form-input {
+    padding: 8px;
+    margin-bottom: 8px;
+}
+.form-input input {
+    width: 100%;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-input input[type="checkbox"],
+.form-input input[type="radio"] {
+    width: auto;
+}
+
+.button-enviar {
+    color: white;
+    background-color: #1259c3;
+    border: 1px solid #1259c3;
+    border-radius: 5px;
+    width: 100%;
+    display: block;
+    padding: 8px;
+    text-align: center;
+    margin: auto;
+}
+
+button-enviar:hover {
+    background-color: #0022aa;
+}
+
+.banner {
+    width: 100%;
+    display: block;
+}
+
+#main-content {
+    padding: 0 5%;
+    background-color: #ebebeb;
+}
+/*También podría ser:
+#main-content {
+  margin: 0 auto;
+  width: 90%;
+  background-color: #ebebeb;
+}
+*/
+
+/*Productos*/
+
+.producto-wrapper {
+    padding: 16px;
+}
+
+article {
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.contenido-producto {
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    position: relative; /*Elementos de una caja dentro de la caja general del artículo: 
+    acá definimos el elemento "relative" y luego los elementos "absolut" que dependerán de este*/
+}
+
+.i-truck {
+    display: block;
+    color: #39b54a;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid #39b54a;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    font-size: 16px;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+/*Footer*/
+
+footer {
+    padding: 16px;
+}
+
+.icon-footer {
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+footer p {
+    color: rgb(97, 97, 97);
+}
+
+.padding-8 {
+    padding: 8px;
+}
+
+.padding-16 {
+    padding: 16px;
+}
+
+.padding-100 {
+    padding: 8px 100px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.no-wrap {
+    flex-wrap: nowrap;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.width-50 {
+    width: 50%;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.error {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: red;
+    font-size: 10px;
+}

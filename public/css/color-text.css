@@ -1,0 +1,97 @@
+/*colores*/
+
+.text-blanco {
+    color: white;
+}
+
+.text-amarillo {
+    color: #eac926;
+}
+.text-azul {
+    color: #03264c;
+}
+
+.text-celeste {
+    color: #1259c3;
+}
+
+.text-gris-oscuro {
+    color: #666;
+}
+
+.text-gris-claro {
+    color: #ebebeb;
+}
+
+.text-verde {
+    color: #39b54a;
+}
+
+.back-blanco {
+    background-color: white;
+}
+
+.back-amarillo {
+    background-color: #eac926;
+}
+
+.back-azul {
+    background-color: #03264c;
+}
+
+.back-celeste {
+    background-color: #1259c3;
+}
+
+.back-gris-oscuro {
+    background-color: #666;
+}
+
+.back-gris-claro {
+    background-color: #ebebeb;
+}
+
+.back-verde {
+    background-color: #39b54a;
+}
+
+/*textos*/
+.text-titles {
+    font-size: 24px;
+}
+
+.text-prices {
+    font-size: 18px;
+    margin-bottom: 0px;
+    width: 30%;
+}
+
+.text-discount {
+    font-size: 16px;
+    margin-top: 0px;
+    width: 70%;
+    position: absolute;
+    left: 100px;
+    top: 16px;
+}
+
+.text-centered {
+    text-align: center;
+}
+
+.text-description {
+    font-size: 16px;
+    display: none;
+}
+
+.title-footer {
+    font-size: 14px;
+}
+
+.text-margin-bottom {
+    margin-bottom: 16px;
+}
+
+.text-margin-top {
+    margin-top: 16px;
+}
