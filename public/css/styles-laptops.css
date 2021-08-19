@@ -1,8 +1,26 @@
-/*.show-sm {
-    display: initial;
-}
-*/
+/*769-1280px*/
 
 .ml-main-nav li {
     padding: 12px;
+}
+
+.contenido-producto .text-description {
+    opacity: 0;
+}
+
+.producto-wrapper:hover .text-description {
+    transition: opacity ease-in 300ms;
+    opacity: 1;
+}
+
+.shadow {
+    box-shadow: none;
+}
+
+.shadow:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.producto-wrapper:hover .i-truck {
+    transform: rotate(-90deg);
 }

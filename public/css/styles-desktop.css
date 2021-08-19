@@ -1,3 +1,8 @@
+/*1280px*/
+.producto-wrapper {
+    width: 25%;
+}
+
 .main-header-top,
 .ml-main-nav {
     max-width: 1200px;
@@ -8,10 +13,11 @@
     padding: 12px;
 }
 
-.producto-wrapper {
-    width: 25%;
+footer div div {
+    width: 30%;
 }
 
-.contenido-producto .text-description {
-    opacity: 0;
+footer .flex {
+    padding: 16px 48px;
+    justify-content: space-between;
 }

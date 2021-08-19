@@ -1,3 +1,5 @@
+/*480-768px*/
+
 .icon-burger {
     display: none;
 }
@@ -36,18 +38,17 @@ section {
     display: flex;
     flex-wrap: wrap;
 }
-/*
-.text-description {
-    display: contents;
-}
-*/
 
-.shadow {
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+.text-description {
+    display: block;
 }
 
 .producto-wrapper {
     width: 50%;
+}
+
+.shadow {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
 
 .w-33-sm {
