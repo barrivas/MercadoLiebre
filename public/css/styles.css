@@ -201,6 +201,10 @@ footer {
     margin-bottom: 10px;
 }
 
+footer div div {
+    margin: auto;
+}
+
 footer p {
     color: rgb(97, 97, 97);
 }

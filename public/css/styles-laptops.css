@@ -24,3 +24,7 @@
 .producto-wrapper:hover .i-truck {
     transform: rotate(-90deg);
 }
+
+.login {
+    width: 50%;
+}

@@ -47,6 +47,13 @@ section {
     width: 50%;
 }
 
+.login {
+    width: 70%;
+    margin: auto;
+    margin-top: 24px;
+    border-radius: 8px;
+}
+
 .shadow {
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
